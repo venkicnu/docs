@@ -25,7 +25,7 @@ stores data used in the replication process, and other
 instance-specific data. The ``local`` database is invisible to
 replication: collections in the ``local`` database are not replicated.
 
-In replication, the ``local`` database store stores internal replication
+In replication, the ``local`` database stores internal replication
 data for each member of a :term:`replica set`. The ``local`` stores the
 following collections:
 
